@@ -1,0 +1,105 @@
+/* 
+    Theme Name: adaji theme
+    Theme URI: https://adaji.com
+    Author: Adaji Mukhtar
+    Author URI: https://wordpress.org
+    Description: ecommerce blog for wordpress
+    Version: 1.0
+    Tags: translation-ready, custom-menu, right-sidebar, custom-header, feature-image
+    Text Dormain: adajiwp
+*/
+
+body {
+    font-family: 'Merriweather', serif;
+}
+.fixed-top {
+    position: fixed !important;
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+nav ul li a {
+    color: rgb(150, 49, 9) !important;
+    font-size: 1.5rem;
+}
+.header-20px {
+    margin-top: 1000px;
+}
+nav img {
+    width: 50%;
+}
+.header_img {
+    max-width: 100%;
+    min-height: 25vh;
+}
+.feature-bg {
+    background: rgba(0, 0, 0, 0.3);
+    width: 100vw;
+    border-radius: 10px;
+}
+.feature-text {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    padding: 2rem 0;
+}
+
+/* welcom section */
+.divider {
+    margin-top: -2rem;
+}
+/* Price List */
+.title {
+    color: goldenrod;
+}
+/* Footer */
+.footer a {
+    color: #212529;
+}
+.widget-area > div > ul > li {
+    list-style: none !important;
+    padding: 0;
+}
+.wpcf7-form label {
+    width: 50% !important;
+}
+@media (min-width:768px) {
+    nav img {
+        width: 100%;
+    }
+    .feature-bg {       
+        width: 60vw;       
+    }
+     span.latest-offer {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        background: rgba(175, 169, 169, 0.6);
+        border-radius: 100%;
+        top: -40px !important;
+        left: -40px;
+        margin-left: 50%;
+    }
+}
+@media (max-width:576px) {
+    .feature-text {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding: 1rem 0;
+    }
+    /* welcom section */
+    .welcome {
+        font-size: 1rem;
+    }
+}
+@media (max-width: 768px) {
+    .title {
+        margin-top: 1em;
+    }
+    .footer button {
+        margin-top: 1em;
+    }
+    .footer .col-sm-4 {
+        border-bottom: 1px solid #ddd;
+        padding: 20px 10px;
+    }
+}
